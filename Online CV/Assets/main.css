@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+}
+
+#settings{
+    width: 70%;
+    max-width: 1350px;
+    margin: 30px auto;
+}
+
+.maindetail
+{
+    color: white;
+    background-size: cover;
+    overflow: hidden;
+    padding: 20px 25px;
+}
+
+#foto{
+    width: 12%;
+    float: left;
+    margin-right: 540px;
+    margin-left: 30px;
+}
+
+#foto img{
+    height: auto;
+    width: 300px;
+}
+
+#detail{
+    margin-top: 50px;
+}
+
+#pidetail{
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.detail1{
+    background-size: cover;
+    padding: 10px;
+    float: left;
+    color: wheat;
+    width: 320px;
+    height: 860px;
+}
+
+.detail2{
+    background-size: cover;
+    background-position:middle;
+    padding: 10px;
+    width: auto;
+    height: 860px;
+    /* background-color: darkkhaki; */
+    /* background-color: rgb(52, 52, 52); */
+    /* background-color: rgb(195, 176, 145); */
+}
+
+#tulisan{
+    margin-right: 20px;
+    margin-left: 340px;
+}
+
+.foot{
+    background-position: center;
+    padding: 10px;
+    height: auto;
+    background-size: cover;
+    color:black;
+    overflow: hidden;
+}
+
+progress {
+    height: 7px;
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-progress-value {
+    background-color: wheat;
+
+  }
+
+  .lurusin{
+      position: relative;
+      bottom: 45px;
+      left: 35px;
+  }
+/* coba liatliat https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-progress-bar */
